@@ -8,7 +8,7 @@ export interface IngresoEgresoState {
 
 const initState: IngresoEgresoState = {
     items: []
-}
+};
 
 export function ingresoEgresoReducer(state = initState, action: fromIngresoEgreso.acciones): IngresoEgresoState {
     switch (action.type) {
